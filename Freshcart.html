@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshcart Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="Green cart.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p>Super Value Deals - Save more with coupons</p>
+            <select name="language" id="select1">
+                <option value="">English</option>
+                <option value="">Duetsch</option>
+            </select>
+        </header>
+
+        <nav>
+            <div class="name">
+                <div class="logo"><i class="fa-solid fa-cart-shopping"></i> FreshCart</div>
+
+                <div class="search">
+                    <input type="search" placeholder="Search for products">
+                    <button><i class="fa-solid fa-location-dot"></i> Location</button>
+                </div>
+
+                <div class="account">
+                    <button><i class="fa-regular fa-heart"></i></button>
+                    <button><i class="fa-regular fa-user"></i></button>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+
+            <div class="pages">
+                <div class="hoverbuttons">
+                    <button id="greenbutton"><i class="fa-solid fa-list"></i> All Departments</button>
+                    <div class="extrabuttons">
+                        <button>Dairy, Bread & Eggs</button>
+                        <button id="btn1">Snacks & Munchies</button>
+                        <button id="btn2">Fruits & Vegetables</button>
+                        <button id="btn3">Cold Drinks & Juices</button>
+                        <button id="btn4">Breakfast & Instant Food</button>
+                        <button id="btn5">Bakery & Biscuits</button>
+                        <button id="btn6">Chicken, Meat & Fish</button>
+                    </div>
+                </div>
+                <button class="pagesbutton">Home <i class="fa-solid fa-angle-down"></i></button>
+                <button class="pagesbutton">Shop <i class="fa-solid fa-angle-down"></i></button>
+                <button class="pagesbutton">Stores <i class="fa-solid fa-angle-down"></i></button>
+                <button class="pagesbutton">Menu <i class="fa-solid fa-angle-down"></i></button>
+                <button class="pagesbutton">Pages <i class="fa-solid fa-angle-down"></i></button>
+                <button class="pagesbutton">Account <i class="fa-solid fa-angle-down"></i></button>
+                <button class="pagesbutton">Dashboard</button>
+                <button class="pagesbutton">Docs</button>
+            </div>
+        </nav>
+
+        <div class="main">
+            <span>Opening sale discount 50%</span>
+            <h1>Supermarket For <br>
+                Fresh Grocery    
+            </h1>
+            <p> Introduced a new model for online grocery <br>
+                Shopping and convenient home delivery.</p>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="categories">
+            <div class="cate">
+                <h2>Featured Categories</h1>
+                <div class="changebutton">
+                    <button><i class="fa-solid fa-angle-left"></i></button>
+                    <button><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+
+            <div class="products">
+                <div class="product1"> <img src="pro1.jpg" alt=""> </div>
+
+                <div class="product1"> <img src="pro2.jpg" alt=""> </div>
+
+                <div class="product1"> <img src="pro3.jpg" alt=""> </div>
+
+                <div class="product1"> <img src="pro4.jpg" alt=""> </div>
+
+                <div class="product1"> <img src="pro5.jpg" alt=""> </div>
+
+                <div class="product1"> <img src="pro6.jpg" alt=""> </div>
+            </div>
+        </div>
+
+
+        <div class="discounts">
+            <div class="discount1"> <br>
+                <h1>Fruits & Vegetables</h1>
+                <p>Get Upto <span>30%</span> Off</p>
+                <button>Shop Now</button>
+            </div>
+
+            <div class="discount2"> <br>
+                <h1>Freshly Baked Buns</h1>
+                <p>Get Upto <span>25%</span> Off</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+
+
+        <div class="popular">
+            <div class="popularh2"><h2>Popular Products</h2></div>
+
+            <div class="items">
+
+                <div class="item11">
+
+                <div class="item1">
+                    <div class="itemimg1">
+                        <span>Sale</span>
+                        <button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    </div>
+    
+                    <div class="itemtext">
+                        <span class="spansnack">Snack & Munchies</span>
+                        <h1>Haldiram's Sev Bhujia</h1>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> <span>4.5 (149)</span></div>
+                        <div class="price"><p>$18 <span id="linethrough">$24</span></p> <button>+ Add</button> </div>
+                    </div>
+                </div>
+
+                <div class="item1">
+                    <div class="itemimg2">
+                        <span id="span14">14%</span>
+                    <button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button></div>
+
+                    <div class="itemtext">
+                        <span class="spansnack">Bakery & Biscuits</span>
+                        <h1>NutriChoice Digestive</h1>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> <span>4.5 (149)</span></div>
+                        <div class="price"><p>$24 <span id="linethrough">$28</span></p> <button>+ Add</button> </div>
+                    </div>
+                </div>
+
+                <div class="item1">
+                    <div class="itemimg3"><button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button></div>
+
+                    <div class="itemtext">
+                        <span class="spansnack">Bakery & Biscuits</span>
+                        <h1>Cadbury 5 Star Chocolate</h1>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> <span>4.5 (149)</span></div>
+                        <div class="price"><p>$32 <span id="linethrough">$35</span></p> <button>+ Add</button> </div>
+                    </div>
+                </div>
+
+                <div class="item1">
+                    <div class="itemimg4">
+                        <span id="spanhot">Hot</span>
+                        <button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button></div>
+
+                    <div class="itemtext">
+                        <span class="spansnack">Snack & Munchies</span>
+                        <h1>Onion Flavour Potato</h1>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> <span>4.5 (149)</span></div>
+                        <div class="price"><p>$10 <span id="linethrough">$12</span></p> <button>+ Add</button> </div>
+                    </div>
+                </div>
+
+                <div class="item1">
+                    <div class="itemimg5"><button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button></div>
+
+                    <div class="itemtext">
+                        <span class="spansnack">Instant Food</span>
+                        <h1>Salted Instant Popcorn</h1>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> <span>4.5 (149)</span></div>
+                        <div class="price"><p>$14 <span id="linethrough">$19</span></p> <button>+ Add</button> </div>
+                    </div>
+                </div></div>
+
+                <div class="item11">
+                    <div class="item1">
+                        <div class="itemimg6">
+                            <span>Sale</span>
+                            <button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button></div>
+    
+                        <div class="itemtext">
+                            <span class="spansnack">Dairy, Bread & Eggs</span>
+                            <h1>BlueBerry Greek Yogurt</h1>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> <span>4.5 (149)</span></div>
+                            <div class="price"><p>$20 <span id="linethrough">$23</span></p> <button>+ Add</button> </div>
+                        </div>
+                    </div>
+    
+                    <div class="item1">
+                        <div class="itemimg7"><button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button></div>
+    
+                        <div class="itemtext">
+                            <span class="spansnack">Dairy, Bread & Eggs</span>
+                            <h1>Britannia Cheese Slices</h1>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> <span>4.5 (149)</span></div>
+                            <div class="price"><p>$21 <span id="linethrough">$23</span></p> <button>+ Add</button> </div>
+                        </div>
+                    </div>
+    
+                    <div class="item1">
+                        <div class="itemimg8"><button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button></div>
+    
+                        <div class="itemtext">
+                            <span class="spansnack">Instant Food</span>
+                            <h1>Kellogg's Original Cereals</h1>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> <span>4.5 (149)</span></div>
+                            <div class="price"><p>$16 <span id="linethrough">$19</span></p> <button>+ Add</button> </div>
+                        </div>
+                    </div>
+    
+                    <div class="item1">
+                        <div class="itemimg9"><button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button></div>
+    
+                        <div class="itemtext">
+                            <span class="spansnack">Snack & Munchies</span>
+                            <h1>Slurrp Millet Chocolate</h1>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> <span>4.5 (149)</span></div>
+                            <div class="price"><p>$18 <span id="linethrough">$20</span></p> <button>+ Add</button> </div>
+                        </div>
+                    </div>
+    
+                    <div class="item1">
+                        <div class="itemimg10"><button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button></div>
+        
+                        <div class="itemtext">
+                            <span class="spansnack">Dairy, Bread & Eggs</span>
+                            <h1>Amul Butter - 500 g</h1>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> <span>4.5 (149)</span></div>
+                            <div class="price"><p>$13 <span id="linethrough">$17</span></p> <button>+ Add</button> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="DailyBestSells">
+            <h2>Daily Best Sells</h1>
+            <div class="sells">
+                <div class="sells1">
+                    <div>
+                        <h2>100% Organic Coffee <br> Beans.</h2>
+                        <p>Get the best deal before close.</p>
+                        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+    
+                <div class="sells2">
+                    <div class="sellsimg1">
+                        <button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    </div>
+
+                    <div class="sellstext">
+                        <span class="sellstextspan">Tea, Coffee & Drinks</span>
+                        <h1>Roast Ground Coffee</h1>
+                        <div class="prices"><p>$13 <span>$18</span></p><i class="firststar" class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>   <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span id="span4">4.5</span></div>
+                        <button>+ Add To Cart</button>
+                        <div class="timer">
+                            <span class="countdown">
+                                <span class="time">1391</span>
+                                <span class="period">Days</span>
+                            </span>
+                            <span class="countdown">
+                                <span class="time">5</span>
+                                <span class="period">Hours</span>
+                            </span>
+                            <span class="countdown">
+                                <span class="time">8</span>
+                                <span class="period">Minutes</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="sells3">
+                    <div class="sellsimg2">
+                        <button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    </div>
+
+                    <div class="sellstext">
+                        <span class="sellstextspan">Fruits & Vegetables</span>
+                        <h1>Crushed Tomatoes</h1>
+                        <div class="prices"><p>$13 <span>$18</span></p><i class="firststar" class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>   <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span id="span4">4.5</span></div>
+                        <button>+ Add To Cart</button>
+                        <div class="timer">
+                            <span class="countdown">
+                                <span class="time">1391</span>
+                                <span class="period">Days</span>
+                            </span>
+                            <span class="countdown">
+                                <span class="time">5</span>
+                                <span class="period">Hours</span>
+                            </span>
+                            <span class="countdown">
+                                <span class="time">8</span>
+                                <span class="period">Minutes</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="sells4">
+                    <div class="sellsimg3">
+                        <button><i class="fa-regular fa-eye"></i></button>  <button><i class="fa-regular fa-heart"></i></button> <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>                        
+                    </div>
+
+                    <div class="sellstext">
+                        <span class="sellstextspan">Fruits & Vegetables</span>
+                        <h1>Golden Pineapple</h1>
+                        <div class="prices"><p>$13 <span>$18</span></p><i class="firststar" class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>   <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span id="span4">4.5</span></div>
+                        <button>+ Add To Cart</button>
+                        <div class="timer">
+                            <span class="countdown">
+                                <span class="time">1391</span>
+                                <span class="period">Days</span>
+                            </span>
+                            <span class="countdown">
+                                <span class="time">5</span>
+                                <span class="period">Hours</span>
+                            </span>
+                            <span class="countdown">
+                                <span class="time">8</span>
+                                <span class="period">Minutes</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="about">
+            <div class="about1">
+                <img src="Clock.png" alt="Wait...">
+                <h1>10 minute grocery now </h1>
+                <p>Get your order delivered to your doorstep at <br> the earliest from FreshCart pickup stores <br> near you.</p>
+            </div>
+
+            <div class="about1">
+                <img src="Gift.png" alt="Wait...">
+                <h1>Best Prices & Offers</h1>
+                <p>Cheaper prices than your local supermarket, <br> great cashback offers to top it off. Get best <br> pricess & offers.</p>
+            </div>
+
+            <div class="about1">
+                <img src="box.png" alt="Wait...">
+                <h1>Wide Assortment</h1>
+                <p>Choose from 5000+ products across food, <br> personal care, household, bakery, veg and <br> non-veg & other categories</p>
+            </div>
+
+            <div class="about1">
+                <img src="return.png" alt="Wait...">
+                <h1>Easy Returns</h1>
+                <p>Not satisfied with a product? Return it at the <br> doorstep & get a refund within hours. No <br> questions asked <a href="index.html">policy</a>.</p>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer2">
+                <div class="links">
+                    <div class="link1">
+                        <h5>Categories</h5>
+                        <div class="complex">
+                            <ul class="uls">
+                                <li><a href="">Vegetables & Fruits</a></li>
+                                <li><a href="">Breakfast & instant food</a></li>
+                                <li><a href="">Bakery & Biscuits</a></li>
+                                <li><a href="">Atta, rice & dal</a></li>
+                                <li><a href="">Sauces & spreads</a></li>
+                                <li><a href="">Organic & gourmet</a></li>
+                                <li><a href="">Baby care</a></li>
+                                <li><a href="">Cleaning essentials</a></li>
+                                <li><a href="">Personal care</a></li>
+                            </ul>
+    
+                            <ul class="uls" id="ul2">
+                                <li><a href="">Dairy, bread & eggs</a></li>
+                                <li><a href="">Cold drinks & juices</a></li>
+                                <li><a href="">Tea, coffee & drinks</a></li>
+                                <li><a href="">Masala, oil & more</a></li>
+                                <li><a href="">Chicken, meat & fish</a></li>
+                                <li><a href="">Paan corner</a></li>
+                                <li><a href="">Pharma & wellness</a></li>
+                                <li><a href="">Home & office</a></li>
+                                <li><a href="">Pet care</a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="link2">
+                        <h5>Get to know us</h5>
+                        <ul>
+                            <li><a href="">Company</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Help Center</a></li>
+                            <li><a href="">Our Value</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="link3">
+                        <h5>For Consumers</h5>
+                        <ul>
+                            <li><a href="">Payments</a></li>
+                            <li><a href="">Shipping</a></li>
+                            <li><a href="">Product Returns</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Shop Checkout</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="link4">
+                        <h5>Become a Shopper</h5>
+                        <ul>
+                            <li><a href="">Shopper Opportunities</a></li>
+                            <li><a href="">Become a Shopper</a></li>
+                            <li><a href="">Earnings</a></li>
+                            <li><a href="">Ideas & Guides</a></li>
+                            <li><a href="">New Retailers</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="link5">
+                        <h5>Freshcart programs</h5>
+                        <ul>
+                            <li><a href="">Freshcart programs</a></li>
+                            <li><a href="">Gift Cards</a></li>
+                            <li><a href="">Promos & Coupons</a></li>
+                            <li><a href="">Freshcart Ads</a></li>
+                            <li><a href="">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+    
+                <div class="payments">
+                    <div class="cards">
+                        <h3>Payment Partners</h3>
+                        <img src="amazon.png" alt="" width="60px" height="15px">
+                        <img src="express.png" alt="" width="50px" height="50px">
+                        <img src="Mastercard_Logo_1979.png" alt="" width="40px" height="23px">
+                        <img src="paypal.jpg" alt="" width="90px" height="90px">
+                        <img src="Visa.png" alt="" width="40px" height="15px">
+                    </div>
+
+                    <div class="store">
+                        <h3>Get deliveries with FreshCart</h3>
+                        <img src="https://freshcart-tailwind.codescandy.com/assets/images/appbutton/appstore-btn.svg" alt="">
+                        <img src="https://freshcart-tailwind.codescandy.com/assets/images/appbutton/googleplay-btn.svg" alt="">
+                    </div>
+                </div>
+    
+                <div class="conclusion">
+                    <h6>© 2024 FreshCart TailwindCSS eCommerce HTML Template. Powered by <a href="">Codescandy</a> .</h6> <div class="follow"><h5>Follow us on</h5><button><i class="fa-brands fa-facebook-f"></i></button><button><i class="fa-brands fa-x-twitter"></i></button><button><i class="fa-brands fa-instagram"></i></button></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
